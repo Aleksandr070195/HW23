@@ -38,7 +38,7 @@ public interface IntegerList {
 
     // Проверка на существование элемента.
     // Вернуть true/false;
-    boolean contains(Integer item);
+    int contains(Integer item);
 
     // Поиск элемента.
     // Вернуть индекс элемента
